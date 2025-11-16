@@ -577,6 +577,6 @@ Este projeto foi desenvolvido como parte do **Azure Frontier Girls Challenge 202
 
 <div align="center">
 
-### ⭐ Desenvolvido com dedicação para o Azure Frontier Girls Challenge 2024
+### ⭐ Desenvolvido com dedicação para o Azure Frontier Girls Challenge 2025
 
 </div>
