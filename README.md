@@ -497,6 +497,4 @@ Possíveis melhorias pós-challenge:
 
 ### ⭐ Desenvolvido com dedicação para o Azure Frontier Girls Challenge 2024
 
-**[Ver Apresentação](#) | [Reportar Bug](issues) | [Sugerir Melhoria](issues)**
-
 </div>
