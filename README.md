@@ -49,12 +49,21 @@ Auxiliar estudantes a criar **planos de estudos estruturados e personalizados** 
 - Laboratórios práticos recomendados
 - Simulados e materiais complementares
 
+### 📚 **Base de Conhecimento Estruturada**
+
+- Dados oficiais das certificações Azure
+- Informações detalhadas sobre peso de cada tópico no exame
+- Número de questões, duração e pontuação de aprovação
+- Subtópicos e áreas de conhecimento detalhadas
+- Links para recursos oficiais Microsoft Learn
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **Azure AI Foundry** - Plataforma de desenvolvimento
 - **GPT-4o** (versão 2024-11-20) - Modelo de linguagem
+- **Knowledge Base** - Base de dados estruturada (JSON)
 - **Região:** East US 2
 - **Lógica customizada** - Cálculos e personalização
 
@@ -85,6 +94,10 @@ Auxiliar estudantes a criar **planos de estudos estruturados e personalizados** 
 ### Interação Inicial
 
 ![Teste Inicial](prints/print07-exemplo-de-uso01.png)
+
+### Base de Conhecimento
+
+![Base Conhecimento](prints/print12-base-de-conhecimento.png)
 
 ---
 
@@ -204,11 +217,10 @@ Tenha em mente: a prática leva à perfeição! Quanto mais você aplicar os con
 
 ---
 
----
-
 ### **Exemplo 2: Cálculo Automático de Tempo**
 
 ![Exemplo Calculo](prints/print09-exemplo-de-uso03.png)
+
 **Usuário:**
 
 ```
@@ -235,6 +247,53 @@ Horas semanais disponíveis: 8 horas por semana
 Agora posso montar o plano completo para você. Quer que eu estruture
 um plano personalizado de 5 semanas?
 ```
+
+---
+
+### **Exemplo 3: Consulta à Base de Conhecimento**
+
+![Exemplo Base Conhecimento](prints/print11-peso.png)
+
+**Usuário:**
+
+```
+Qual o peso de cada tópico no exame AZ-900?
+```
+
+**Resposta do Agente:**
+
+```
+📊 Pesos de cada Tópico no Exame AZ-900
+
+1. Descrição de Conceitos de Computação em Nuvem
+   • Peso: 25%
+   • Abrange fundamentos de computação em nuvem, incluindo benefícios,
+     economia de escala e tipos de nuvem (Pública, Privada e Híbrida).
+
+2. Descrição dos Principais Serviços da Microsoft Azure
+   • Peso: 35%
+   • O maior bloco do exame, cobrindo serviços principais como máquinas
+     virtuais (VM), banco de dados SQL, Azure Functions, armazenamento,
+     redes e muito mais.
+
+3. Descrição da Segurança, Privacidade, Conformidade e Confiança no Azure
+   • Peso: 20%
+   • Inclui tópicos como o Microsoft Defender, serviços de monitoramento
+     de segurança e políticas de governança no Azure.
+
+4. Descrição do Modelo de Preços e Planos de Suporte do Azure
+   • Peso: 20%
+   • Foco em modelos de pagamento, gerenciamento de custos, reservas,
+     calculadora de preços, suporte técnico e SLA.
+
+🎯 Dicas Baseadas nos Pesos:
+- Priorize os serviços principais (35%)
+- Dedique tempo aos conceitos de nuvem (25%)
+- Revise segurança e conformidade (20%)
+- Familiarize-se com preços e suporte (20%)
+```
+
+**Diferencial:** O agente consulta a base de conhecimento estruturada para fornecer informações precisas e atualizadas sobre os exames!
 
 ---
 
@@ -335,6 +394,32 @@ O agente utiliza um prompt cuidadosamente elaborado que:
 - Adiciona elementos motivacionais contextualizados
 - Integra emojis para melhor experiência visual
 
+### **Base de Conhecimento Estruturada**
+
+O agente possui acesso a uma base de dados JSON com informações detalhadas sobre certificações Azure:
+
+**Dados incluídos:**
+
+- ✅ Informações oficiais de cada certificação
+- ✅ Peso exato de cada tópico no exame (%)
+- ✅ Número de questões e duração
+- ✅ Pontuação de aprovação
+- ✅ Preço do exame
+- ✅ Horas de estudo recomendadas
+- ✅ Subtópicos detalhados por área
+- ✅ Links para recursos oficiais Microsoft Learn
+
+**Certificações na base:**
+
+- AZ-900 (Azure Fundamentals)
+- AZ-104 (Azure Administrator)
+- AZ-204 (Azure Developer)
+- AZ-305 (Azure Solutions Architect)
+- AI-900 (Azure AI Fundamentals)
+- DP-900 (Azure Data Fundamentals)
+
+Isso garante que o agente forneça informações **precisas e atualizadas** baseadas em dados oficiais da Microsoft.
+
 ### **Lógica de Cálculo Integrada**
 
 Sistema de cálculo automático que considera:
@@ -353,9 +438,10 @@ Resultado: Semanas = Horas Totais ÷ Horas Semanais
 ### **Personalização Multinível**
 
 - Adapta profundidade técnica ao nível
-- Ajusta recursos recomendados
+- Ajusta recursos recomendados baseado na base de conhecimento
 - Modifica tom e complexidade
 - Personaliza mensagens motivacionais
+- Consulta dados oficiais para informações precisas
 
 ---
 
@@ -363,37 +449,45 @@ Resultado: Semanas = Horas Totais ÷ Horas Semanais
 
 ### **1. Dados Oficiais**
 
-✅ Baseado em learning paths Microsoft oficiais
-✅ Porcentagens de tópicos dos exames reais
+✅ Baseado em learning paths Microsoft oficiais  
+✅ Porcentagens de tópicos dos exames reais  
 ✅ Recursos curados da documentação oficial
 
 ### **2. Formatação Visual**
 
-✅ Tabelas markdown para melhor legibilidade
-✅ Emojis contextualizados
-✅ Hierarquia clara de informações
+✅ Tabelas markdown para melhor legibilidade  
+✅ Emojis contextualizados  
+✅ Hierarquia clara de informações  
 ✅ Seções bem organizadas
 
 ### **3. Gamificação Inteligente**
 
-✅ Sistema progressivo de badges
-✅ Nomes criativos e motivacionais
-✅ Celebração de marcos
+✅ Sistema progressivo de badges  
+✅ Nomes criativos e motivacionais  
+✅ Celebração de marcos  
 ✅ Feedback positivo constante
 
 ### **4. Personalização Real**
 
-✅ Adapta ao perfil individual
-✅ Considera experiência prévia
-✅ Respeita disponibilidade de tempo
+✅ Adapta ao perfil individual  
+✅ Considera experiência prévia  
+✅ Respeita disponibilidade de tempo  
 ✅ Ajusta complexidade dinamicamente
 
 ### **5. Cálculo Automático**
 
-✅ Estimativa realista de tempo
-✅ Baseado em dados consolidados
-✅ Ajuste por nível de experiência
+✅ Estimativa realista de tempo  
+✅ Baseado em dados consolidados  
+✅ Ajuste por nível de experiência  
 ✅ Recomendação de ritmo de estudo
+
+### **6. Base de Conhecimento Oficial**
+
+✅ Dados estruturados das certificações Azure  
+✅ Informações de peso dos tópicos atualizadas  
+✅ Consulta a dados oficiais Microsoft  
+✅ Respostas precisas baseadas em fonte confiável  
+✅ Cobertura completa de certificações Fundamentals, Associate e Expert
 
 ---
 
@@ -424,13 +518,13 @@ Resultado: Semanas = Horas Totais ÷ Horas Semanais
 **Raissa Nazaré**
 
 - Software Engineering Intern @ Blip
-- Azure Frontier Girls Challenge 2025 Participant
+- Azure Frontier Girls Challenge 2024 Participant
 
 ---
 
 ## 📝 Licença e Uso
 
-Este projeto foi desenvolvido como parte do **Azure Frontier Girls Challenge 2025**.
+Este projeto foi desenvolvido como parte do **Azure Frontier Girls Challenge 2024**.
 
 **Objetivo Educacional:** Demonstrar capacidades do Azure AI Foundry para criação de agentes inteligentes personalizados.
 
@@ -449,8 +543,9 @@ Este projeto foi desenvolvido como parte do **Azure Frontier Girls Challenge 202
 2. Implantar modelo GPT-4o
 3. Configurar agente com system prompt fornecido
 4. Adicionar lógica de cálculo nas instruções
-5. Testar com múltiplos cenários
-6. Documentar com prints
+5. Adicionar base de conhecimento (arquivo JSON)
+6. Testar com múltiplos cenários
+7. Documentar com prints
 
 ---
 
@@ -462,6 +557,7 @@ Este projeto foi desenvolvido como parte do **Azure Frontier Girls Challenge 202
 - Criação de prompts estruturados e efetivos
 - Integração de lógica de negócio em agentes
 - Personalização de respostas baseada em contexto
+- Estruturação e uso de bases de conhecimento
 
 ### **Design de Experiência**
 
@@ -469,20 +565,6 @@ Este projeto foi desenvolvido como parte do **Azure Frontier Girls Challenge 202
 - Estruturação visual de informações
 - Equilíbrio entre conteúdo e usabilidade
 - Personalização como diferencial competitivo
-
----
-
-## 🎯 Próximos Passos (Roadmap Futuro)
-
-Possíveis melhorias pós-challenge:
-
-- [ ] Integração com Microsoft Graph API (calendário)
-- [ ] Export de planos para Notion/Trello
-- [ ] Bot Discord para lembretes de estudo
-- [ ] Geração de flashcards automáticos
-- [ ] Tracking de progresso semanal
-- [ ] Integração com Microsoft Teams
-- [ ] Dashboard visual de progresso
 
 ---
 
@@ -496,7 +578,5 @@ Possíveis melhorias pós-challenge:
 <div align="center">
 
 ### ⭐ Desenvolvido com dedicação para o Azure Frontier Girls Challenge 2024
-
-**[Ver Apresentação](#) | [Reportar Bug](issues) | [Sugerir Melhoria](issues)**
 
 </div>
