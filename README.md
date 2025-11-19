@@ -3,7 +3,7 @@
 > Agente de IA para planejamento personalizado de estudos para certificações Microsoft Azure
 
 [![Azure AI Foundry](https://img.shields.io/badge/Azure-AI%20Foundry-0078D4?logo=microsoft-azure)](https://ai.azure.com)
-[![Challenge](https://img.shields.io/badge/Azure%20Frontier%20Girls-Challenge%202024-FF69B4)]()
+[![Challenge](https://img.shields.io/badge/Azure%20Frontier%20Girls-Challenge%202025-FF69B4)]()
 [![Status](https://img.shields.io/badge/Status-Funcional-success)]()
 
 ---
