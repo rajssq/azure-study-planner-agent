@@ -573,52 +573,6 @@ Resultado: Semanas = Horas Totais ÷ Horas Semanais
 
 ---
 
-## 🎓 Diferenciais do Projeto
-
-### **1. Dados Oficiais**
-
-✅ Baseado em learning paths Microsoft oficiais  
-✅ Porcentagens de tópicos dos exames reais  
-✅ Recursos curados da documentação oficial
-
-### **2. Formatação Visual**
-
-✅ Tabelas markdown para melhor legibilidade  
-✅ Emojis contextualizados  
-✅ Hierarquia clara de informações  
-✅ Seções bem organizadas
-
-### **3. Gamificação Inteligente**
-
-✅ Sistema progressivo de badges  
-✅ Nomes criativos e motivacionais  
-✅ Celebração de marcos  
-✅ Feedback positivo constante
-
-### **4. Personalização Real**
-
-✅ Adapta ao perfil individual  
-✅ Considera experiência prévia  
-✅ Respeita disponibilidade de tempo  
-✅ Ajusta complexidade dinamicamente
-
-### **5. Cálculo Automático**
-
-✅ Estimativa realista de tempo  
-✅ Baseado em dados consolidados  
-✅ Ajuste por nível de experiência  
-✅ Recomendação de ritmo de estudo
-
-### **6. Base de Conhecimento Oficial**
-
-✅ Dados estruturados das certificações Azure  
-✅ Informações de peso dos tópicos atualizadas  
-✅ Consulta a dados oficiais Microsoft  
-✅ Respostas precisas baseadas em fonte confiável  
-✅ Cobertura completa de certificações Fundamentals, Associate e Expert
-
----
-
 ## 🔗 Referências e Recursos
 
 ### **Documentação Oficial**
@@ -627,11 +581,6 @@ Resultado: Semanas = Horas Totais ÷ Horas Semanais
 - [Microsoft Learn - Azure Certifications](https://learn.microsoft.com/certifications/)
 - [Azure Fundamentals (AZ-900)](https://learn.microsoft.com/certifications/azure-fundamentals/)
 - [Azure Administrator (AZ-104)](https://learn.microsoft.com/certifications/azure-administrator/)
-
-### **Challenge**
-
-- [Azure Frontier Girls Challenge](https://github.com/AzureFrontierGirls-AI-Challenge)
-- Prazo de entrega: 21/11/2024 às 23:59
 
 ### **Recursos de Estudo**
 
@@ -646,13 +595,13 @@ Resultado: Semanas = Horas Totais ÷ Horas Semanais
 **Raissa Nazaré**
 
 - Software Engineering Intern @ Blip
-- Azure Frontier Girls Challenge 2024 Participant
+- Azure Frontier Girls Challenge 2025 Participant
 
 ---
 
 ## 📝 Licença e Uso
 
-Este projeto foi desenvolvido como parte do **Azure Frontier Girls Challenge 2024**.
+Este projeto foi desenvolvido como parte do **Azure Frontier Girls Challenge 2025**.
 
 **Objetivo Educacional:** Demonstrar capacidades do Azure AI Foundry para criação de agentes inteligentes personalizados.
 
@@ -674,25 +623,6 @@ Este projeto foi desenvolvido como parte do **Azure Frontier Girls Challenge 202
 5. Adicionar base de conhecimento (arquivo JSON)
 6. Testar com múltiplos cenários
 7. Documentar com prints
-
----
-
-## 💡 Aprendizados do Projeto
-
-### **Técnicos**
-
-- Configuração e deploy de modelos GPT no Azure
-- Criação de prompts estruturados e efetivos
-- Integração de lógica de negócio em agentes
-- Personalização de respostas baseada em contexto
-- Estruturação e uso de bases de conhecimento
-
-### **Design de Experiência**
-
-- Importância da gamificação na motivação
-- Estruturação visual de informações
-- Equilíbrio entre conteúdo e usabilidade
-- Personalização como diferencial competitivo
 
 ---
 
