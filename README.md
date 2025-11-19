@@ -99,6 +99,134 @@ Auxiliar estudantes a criar **planos de estudos estruturados e personalizados** 
 
 ![Base Conhecimento](prints/print12-base-de-conhecimento.png)
 
+```bash
+{
+  "certificacoes": [
+    {
+      "codigo": "AZ-900",
+      "nome": "Microsoft Azure Fundamentals",
+      "nivel": "Fundamentals",
+      "duracao_exame": "60 minutos",
+      "numero_questoes": "40-60 questões",
+      "pontuacao_aprovacao": "700/1000",
+      "preco_exame": "$99 USD",
+      "horas_estudo_recomendadas": 25,
+      "topicos": [
+        {
+          "nome": "Conceitos de Cloud Computing",
+          "peso": "20-25%",
+          "subtopicos": [
+            "Benefícios da nuvem",
+            "Tipos de serviço (IaaS, PaaS, SaaS)",
+            "Modelos de nuvem (pública, privada, híbrida)"
+          ]
+        },
+        {
+          "nome": "Serviços Principais do Azure",
+          "peso": "30-35%",
+          "subtopicos": [
+            "Compute (VMs, App Services, Containers)",
+            "Networking (VNets, Load Balancer, VPN Gateway)",
+            "Storage (Blob, File, Queue, Table)"
+          ]
+        },
+        {
+          "nome": "Segurança e Governança",
+          "peso": "25-30%",
+          "subtopicos": [
+            "Azure AD",
+            "Network Security Groups",
+            "Azure Policy",
+            "Role-Based Access Control (RBAC)"
+          ]
+        },
+        {
+          "nome": "Preços e Suporte",
+          "peso": "20-25%",
+          "subtopicos": [
+            "Modelos de preços",
+            "Azure Cost Management",
+            "SLAs",
+            "Ciclo de vida do serviço"
+          ]
+        }
+      ],
+      "recursos_oficiais": [
+        "https://learn.microsoft.com/certifications/azure-fundamentals/",
+        "https://learn.microsoft.com/training/paths/az-900-describe-cloud-concepts/"
+      ]
+    },
+    {
+      "codigo": "AZ-104",
+      "nome": "Microsoft Azure Administrator",
+      "nivel": "Associate",
+      "duracao_exame": "120 minutos",
+      "numero_questoes": "40-60 questões",
+      "pontuacao_aprovacao": "700/1000",
+      "preco_exame": "$165 USD",
+      "horas_estudo_recomendadas": 45,
+      "prerequisito": "AZ-900 (recomendado)",
+      "topicos": [
+        {
+          "nome": "Identidades e Governança",
+          "peso": "15-20%",
+          "subtopicos": [
+            "Azure AD users e groups",
+            "RBAC",
+            "Azure Policy",
+            "Subscriptions e Management Groups"
+          ]
+        },
+        {
+          "nome": "Storage",
+          "peso": "15-20%",
+          "subtopicos": [
+            "Storage accounts",
+            "Blob storage",
+            "Azure Files",
+            "Storage security"
+          ]
+        },
+        {
+          "nome": "Compute",
+          "peso": "20-25%",
+          "subtopicos": [
+            "Virtual Machines",
+            "VM availability",
+            "Azure Container Instances",
+            "Azure App Service"
+          ]
+        },
+        {
+          "nome": "Networking",
+          "peso": "20-25%",
+          "subtopicos": [
+            "Virtual Networks",
+            "Network Security Groups",
+            "Azure Firewall",
+            "VPN Gateway",
+            "Azure DNS"
+          ]
+        },
+        {
+          "nome": "Monitoramento e Backup",
+          "peso": "10-15%",
+          "subtopicos": [
+            "Azure Monitor",
+            "Azure Backup",
+            "Azure Site Recovery",
+            "Log Analytics"
+          ]
+        }
+      ],
+      "recursos_oficiais": [
+        "https://learn.microsoft.com/certifications/azure-administrator/",
+        "https://learn.microsoft.com/training/paths/az-104-administrator-prerequisites/"
+      ]
+    }
+  ]
+}
+```
 ---
 
 ## 🚀 Como Usar
